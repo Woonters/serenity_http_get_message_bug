@@ -1,0 +1,8 @@
+[package]
+name = "serenity_minimal_working_example"
+version = "0.1.0"
+edition = "2021"
+
+[dependencies]
+serenity = {version="0.12.2", features = ["client", "standard_framework"]}
+tokio = {version="1", features=["full"]}
